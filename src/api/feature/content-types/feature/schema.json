@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "Feature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconWithText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.icon-with-text"
+    }
+  }
+}

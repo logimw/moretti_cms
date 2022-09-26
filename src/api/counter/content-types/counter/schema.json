@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "counters",
+  "info": {
+    "singularName": "counter",
+    "pluralName": "counters",
+    "displayName": "Liczby"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "counter": {
+      "displayName": "Licznik",
+      "type": "component",
+      "repeatable": true,
+      "component": "text.licznik"
+    }
+  }
+}

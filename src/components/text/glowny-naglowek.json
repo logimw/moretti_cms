@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_glowny_nagloweks",
+  "info": {
+    "displayName": "Główny nagłówek"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "type": "string"
+    },
+    "bottom": {
+      "type": "string"
+    }
+  }
+}

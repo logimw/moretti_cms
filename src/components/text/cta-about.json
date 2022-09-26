@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_text_cta_abouts",
+  "info": {
+    "displayName": "ctaAbout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "ctaAboutContent": {
+      "type": "text"
+    },
+    "iconWithText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.icon-with-text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_text_timelines",
+  "info": {
+    "displayName": "timeline"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true,
+      "maxLength": 8
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

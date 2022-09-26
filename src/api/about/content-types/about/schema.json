@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "O firmie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "timelineHeading": {
+      "type": "string"
+    },
+    "timelineItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.timeline"
+    },
+    "aboutContent": {
+      "type": "richtext"
+    },
+    "ctaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ctaAbout": {
+      "displayName": "ctaAbout",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.cta-about"
+    },
+    "aboutContentWithImage": {
+      "displayName": "aboutContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.about-content"
+    }
+  }
+}

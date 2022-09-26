@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_text_icon_with_texts",
+  "info": {
+    "displayName": "iconWithText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
