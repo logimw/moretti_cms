@@ -1,11 +1,18 @@
 {
   "collectionName": "components_text_liczniks",
   "info": {
-    "displayName": "Licznik"
+    "displayName": "Licznik",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "count": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "prefix": {
       "type": "string"
     },
     "description": {
