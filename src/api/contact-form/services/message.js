@@ -38,7 +38,7 @@ module.exports = {
   async getFormConfiguration() {
     return await strapi.entityService.findOne(
       "api::contact-form.contact-form",
-      2,
+      1,
       { populate: "receiveEmails" }
     );
   },
