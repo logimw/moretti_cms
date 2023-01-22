@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_form_emails",
+  "info": {
+    "displayName": "Email",
+    "icon": "envelope-open-text"
+  },
+  "options": {},
+  "attributes": {
+    "receiveEmail": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
